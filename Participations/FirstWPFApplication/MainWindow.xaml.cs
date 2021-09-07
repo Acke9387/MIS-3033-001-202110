@@ -27,22 +27,33 @@ namespace FirstWPFApplication
             //one way
             //lblOutput.Content = "";
             lblOutput.Visibility = Visibility.Hidden;
-
+            wndMain.Background = Brushes.DarkGray;
         }
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show("You clicked me!");
 
-            string dobValue = txtDOB.Text;
+            string dobValue = dtpBirthdate.Text;
             DateTime dob = Convert.ToDateTime(dobValue);
 
             TimeSpan age = DateTime.Now - dob;
 
             int years = age.Days / 365;
+            string name = txtName.Text;
 
-            lblOutput.Content = $"Hey _______, you are {years.ToString("G0")}";
+            lblOutput.Content = $"Hey {name}, you are {years.ToString("G0")}";
             lblOutput.Visibility = Visibility.Visible;
+        }
+
+        private void btnSubmit_MouseEnter(object sender, MouseEventArgs e)
+        {
+            wndMain.Background = Brushes.AliceBlue;
+        }
+
+        private void btnSubmit_MouseLeave(object sender, MouseEventArgs e)
+        {
+            wndMain.Background = Brushes.DarkGray;
         }
     }
 }
