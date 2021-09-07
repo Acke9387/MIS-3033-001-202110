@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_FizzBuzz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_FizzBuzz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="MIS 3013 Review" HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top" Height="53" Width="324" FontSize="36"/>
+        <ListBox x:Name="lstFizz" Margin="10,179,480,33"/>
+        <ListBox x:Name="lstBuzz" Margin="568,179,10,33"/>
+        <Label Content="Fizz" HorizontalAlignment="Left" Margin="143,148,0,0" VerticalAlignment="Top"/>
+        <Label Content="Buzz" HorizontalAlignment="Left" Margin="606,148,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAdd" Content="Calculate Fizz Buzz" HorizontalAlignment="Left" Margin="333,107,0,0" VerticalAlignment="Top" Height="39" Width="148" Click="btnAdd_Click" IsDefault="True"/>
+        <ListBox x:Name="lstFizzBuzz" Margin="340,182,238,30"/>
+        <Label Content="FizzBuzz" HorizontalAlignment="Center" Margin="0,151,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

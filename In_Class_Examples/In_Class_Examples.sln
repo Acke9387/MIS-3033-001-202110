@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_with_class_review", "WPF_with_class_review\WPF_with_class_review.csproj", "{9F07252D-5A85-436C-9C72-2220C101A7C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FizzBuzz", "WPF_FizzBuzz\WPF_FizzBuzz.csproj", "{8165B7EF-3E5F-49BD-A944-2B4107377988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9F07252D-5A85-436C-9C72-2220C101A7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F07252D-5A85-436C-9C72-2220C101A7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F07252D-5A85-436C-9C72-2220C101A7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8165B7EF-3E5F-49BD-A944-2B4107377988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8165B7EF-3E5F-49BD-A944-2B4107377988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8165B7EF-3E5F-49BD-A944-2B4107377988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8165B7EF-3E5F-49BD-A944-2B4107377988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
