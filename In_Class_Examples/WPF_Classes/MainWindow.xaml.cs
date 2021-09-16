@@ -61,5 +61,16 @@ namespace WPF_Classes
 
             //}
         }
+
+        private void lstStudents_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Student selectedStudent = (Student)lstStudents.SelectedItem;
+            if (selectedStudent == null)
+            {
+                return;
+            }
+
+            MessageBox.Show($"Double clicked {selectedStudent.FirstName}!");
+        }
     }
 }

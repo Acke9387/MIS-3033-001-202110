@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWPFApplication", "FirstWPFApplication\FirstWPFApplication.csproj", "{E08B35AA-840C-4D17-A502-7F4DA1850DBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vowels_and_Consonants", "Vowels_and_Consonants\Vowels_and_Consonants.csproj", "{77B34B74-9E5B-4119-9CA4-6649FA9C9532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vowels_and_Consonants", "Vowels_and_Consonants\Vowels_and_Consonants.csproj", "{77B34B74-9E5B-4119-9CA4-6649FA9C9532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Classes", "WPF_Classes\WPF_Classes.csproj", "{EE743A3E-3788-4D81-BB04-FBA050AABE72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{77B34B74-9E5B-4119-9CA4-6649FA9C9532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B34B74-9E5B-4119-9CA4-6649FA9C9532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B34B74-9E5B-4119-9CA4-6649FA9C9532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE743A3E-3788-4D81-BB04-FBA050AABE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE743A3E-3788-4D81-BB04-FBA050AABE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE743A3E-3788-4D81-BB04-FBA050AABE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE743A3E-3788-4D81-BB04-FBA050AABE72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

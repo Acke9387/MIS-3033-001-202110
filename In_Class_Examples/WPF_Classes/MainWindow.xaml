@@ -18,7 +18,7 @@
         <Label Content="Bursar Balance:" HorizontalAlignment="Left" Margin="54,268,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtBursar" HorizontalAlignment="Left" Margin="163,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnAdd" Content="Add Student" HorizontalAlignment="Left" Margin="126,337,0,0" VerticalAlignment="Top" Height="30" Width="157" Click="btnAdd_Click"/>
-        <ListBox x:Name="lstStudents" Margin="325,0,0,0" SelectionChanged="lstStudents_SelectionChanged"/>
+        <ListBox x:Name="lstStudents" Margin="325,0,0,0" SelectionChanged="lstStudents_SelectionChanged" MouseDoubleClick="lstStudents_MouseDoubleClick"/>
         <CheckBox x:Name="chkProbation" Content="Are they on probation?" HorizontalAlignment="Left" Margin="141,182,0,0" VerticalAlignment="Top"/>
 
     </Grid>
