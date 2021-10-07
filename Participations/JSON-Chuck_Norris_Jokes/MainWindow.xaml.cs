@@ -42,5 +42,26 @@ namespace JSON_Chuck_Norris_Jokes
             }
 
         }
+
+        private void btnGetJoke_Click(object sender, RoutedEventArgs e)
+        {
+            string category = cboCategories.SelectedValue.ToString();
+            string url = "https://api.chucknorris.io/jokes/random";
+            if (category != "all")
+            {
+                url += "?category=" + category;
+
+            }
+
+            using (var client = new HttpClient())
+            {
+                string json = client.GetStringAsync(url).Result;
+
+                Joke joke = JsonConvert.DeserializeObject<Joke>(json);
+
+                txtJoke.Text = joke.value;
+            }
+
+        }
     }
 }
