@@ -1,0 +1,17 @@
+﻿<Window x:Class="JSON_Pokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Pokemon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cboPokies" HorizontalAlignment="Left" Margin="73,91,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboPokies_SelectionChanged"/>
+        <Label Content="Select a Pokie" HorizontalAlignment="Left" Margin="60,59,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgPokemon" HorizontalAlignment="Left" Height="199" Margin="245,125,0,0" VerticalAlignment="Top" Width="330"/>
+        <Button x:Name="btnToggle" Content="Toggle" HorizontalAlignment="Left" Margin="348,350,0,0" VerticalAlignment="Top" Height="30" Width="73" Click="btnToggle_Click"/>
+        <Label x:Name="lblName" Content="" HorizontalAlignment="Left" Margin="275,32,0,0" VerticalAlignment="Top" Height="81" Width="343" FontSize="24"/>
+
+    </Grid>
+</Window>
