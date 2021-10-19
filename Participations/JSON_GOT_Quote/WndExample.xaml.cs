@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace JSON_GOT_Quote
+{
+    /// <summary>
+    /// Interaction logic for WndExample.xaml
+    /// </summary>
+    public partial class WndExample : Window
+    {
+        public string Message { get; set; }
+        public WndExample()
+        {
+            InitializeComponent();
+        }
+
+        public void DoSomething()
+        {
+
+        }
+    }
+}

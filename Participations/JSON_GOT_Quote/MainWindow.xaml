@@ -1,0 +1,19 @@
+﻿<Window x:Class="JSON_GOT_Quote.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_GOT_Quote"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="https://lh3.googleusercontent.com/proxy/TK6lTvTUTMctpHHguUexYzBQ1t_FbWR0bp0AdEA1x_t4JeTLOlNKgl8JVuSf7lRMIZ8tcDv2TBmc68oEca3yfGYM9YM1pyh-CixBZicgmJKHie8u9jTQ7G0IDni2hoSQghY6JzwA9tgTRE3Ey82U"/>
+    </Window.Background>
+    <Grid>
+        <TextBlock x:Name="txtQuote" HorizontalAlignment="Left" Margin="484,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="158" Width="263" Background="#B2AAF1EE" Foreground="Black"/>
+        <Label x:Name="lblCharacter" Content="" HorizontalAlignment="Left" Margin="505,207,0,0" VerticalAlignment="Top" Width="242" Background="#CCF5F1F1"/>
+        <Button x:Name="btnQuote" Content="Get Quote" HorizontalAlignment="Left" Margin="56,88,0,0" VerticalAlignment="Top" Height="98" Width="147" Click="btnQuote_Click"/>
+        <Button x:Name="btnExport" Content="Export Quotes" HorizontalAlignment="Left" Margin="56,269,0,0" VerticalAlignment="Top" Height="98" Width="147" Click="btnExport_Click" />
+
+    </Grid>
+</Window>
