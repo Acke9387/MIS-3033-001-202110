@@ -1,0 +1,24 @@
+﻿<Window x:Class="JSON_Serialization.DetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Serialization"
+        mc:Ignorable="d"
+        Title="DetailsWindow" Height="450" Width="525">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="46,48,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="130,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="Platform" HorizontalAlignment="Left" Margin="46,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPlatform" HorizontalAlignment="Left" Margin="130,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="Release Date" HorizontalAlignment="Left" Margin="46,129,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtReleaseDate" HorizontalAlignment="Left" Margin="130,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="Meta Score" HorizontalAlignment="Left" Margin="46,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMetaScore" HorizontalAlignment="Left" Margin="130,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="User Review" HorizontalAlignment="Left" Margin="46,211,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtUserReview" HorizontalAlignment="Left" Margin="131,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" IsEnabled="False"/>
+        <Label Content="Summary" HorizontalAlignment="Left" Margin="46,245,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSummary" HorizontalAlignment="Center" Margin="0,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" IsEnabled="False" Height="114"/>
+
+    </Grid>
+</Window>
