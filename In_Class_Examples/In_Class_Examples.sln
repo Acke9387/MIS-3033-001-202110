@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Classes", "WPF_Classes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Files", "WPF_Files\WPF_Files.csproj", "{13024606-4864-4D3D-B0DF-AB2BF5E79F87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_RickAndMorty", "JSON_RickAndMorty\JSON_RickAndMorty.csproj", "{61F6C44E-90A0-4FF3-A158-7BFD0FF49D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON_RickAndMorty", "JSON_RickAndMorty\JSON_RickAndMorty.csproj", "{61F6C44E-90A0-4FF3-A158-7BFD0FF49D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Example1", "MVC_Example1\MVC_Example1.csproj", "{0DE977F9-037A-44F3-9CE6-A2AE7FA9AB17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{61F6C44E-90A0-4FF3-A158-7BFD0FF49D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61F6C44E-90A0-4FF3-A158-7BFD0FF49D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61F6C44E-90A0-4FF3-A158-7BFD0FF49D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE977F9-037A-44F3-9CE6-A2AE7FA9AB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE977F9-037A-44F3-9CE6-A2AE7FA9AB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE977F9-037A-44F3-9CE6-A2AE7FA9AB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE977F9-037A-44F3-9CE6-A2AE7FA9AB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
