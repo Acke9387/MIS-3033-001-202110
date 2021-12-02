@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MVC_EF.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+    string backgroundColor = "red";
+}
+
+<h2>Students</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var student in Model)
+        {
+            <div class="col-md-4" style="margin-bottom:5px;">
+                <a href="/Students/Details/@student.StudentID" style="text-decoration:none;">
+                    <div class="card student" style="width: 18rem; background-color:@backgroundColor">
+                        <div class="card-body">
+                            <h5 class="card-title">@student.LastName, @student.FirstName</h5>
+                            <p class="card-text">My favorite color is @student.FavoriteColor</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            if (backgroundColor == "red")
+            {
+                backgroundColor = "green";
+            }
+            else
+            {
+                backgroundColor = "red";
+            }
+        }
+    </div>
+</div>
